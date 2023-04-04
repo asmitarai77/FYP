@@ -534,6 +534,14 @@ slideInFromLeft{
 
 }
 
+.icon-hover svg{
+    width: 20%;
+    position: absolute;
+    z-index: 1;
+    top: -250px;
+    right:20px ;
+}
+
 .card-logo{
     display: flex;
     column-gap: 30px;
@@ -545,13 +553,6 @@ slideInFromLeft{
     width: 75px;
 }
 
-.card-logo .fonepay img{
-    width: 80px;
-}
-
-.card-logo .esewa img{
-    width: 90px;
-}
 .fa-brands, .fab{
     font-weight: 300;
     color: #000;
