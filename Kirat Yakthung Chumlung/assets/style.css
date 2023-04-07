@@ -260,10 +260,10 @@ slideInFromLeft{
 
 /* Top Picks */
 
-.top-pick-header h3{
+.top-pick-header p{
     text-align: center;
-    font-size: 25px;
-    color: #0c0a0afc;
+    font-size: 30px;
+    color: #656565;
 }
 
 .home-button{
@@ -864,6 +864,7 @@ label{
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 20px;
     padding-bottom: 25px;
+    row-gap: 30px;
  }
 
 .pd-grid-row{
@@ -1038,3 +1039,139 @@ label{
 }
 
 /* End of detail section */
+
+/* Testimonial CSS */
+
+.test-main-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.test-content .test{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 1px solid #BECCD6;
+    border-radius: 6px;
+    box-shadow: 0 15px 25px rgb(35 47 85 / 10%);
+}
+
+.test-image img{
+    width: 90px !important;
+    height: 90px !important;
+    border-radius: 50% !important;
+    margin: auto !important;
+    margin: 15px !important;
+}
+
+.test-text{
+    color: #656565;
+}
+
+.text-1{
+    padding-bottom: 15px;
+}
+
+.text-2{
+    font-size: 13px;
+    padding-bottom: 15px;
+}
+
+.text-2 span{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.test a{
+    padding: 5px 15px;
+    transition: all 0.7s ease-in-out;
+}
+.test a:hover{
+    background: #f7773742;
+    transition: all 0.7s ease-in-out;
+}
+
+/* Feature CSS */
+
+.feat-heading{
+    padding-bottom: 30px;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+/* feature Css End */
+
+/* About Us */
+/*Event Blog CSS  */
+.blog{
+    background: linear-gradient(90deg, rgba(224,229,235,1) 50%, #f7772d 50%, #f7772d 51%);
+}
+
+.blog-header{
+    font-size: 30px;
+    padding: 0px 0px 40px 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.blog-header h2{
+    color: var(--primary-color-1);
+}
+
+.blog-header h2 span{
+    color: var(--primary-color-3);
+}
+
+.blog-main-body{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.blog-body{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+}
+
+.blog-image{
+    position: relative;
+    margin: 0px 0px 0px 90px;
+
+}
+
+.blog-text{
+    display: flex;
+    position: relative;
+    background-color: var(--primary-color-3);
+    padding: 30px 30px;
+    width: 30%;
+    margin: 0px 0px 0px -100px;
+}
+
+.blog-text .text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.text h3{
+    font-size: 20px;
+}
+
+.blog-text::before{
+    content: '';
+    position: absolute;
+    z-index: 1;
+}
+
+.blog-text a:hover{
+    color: var(--primary-color-2)
+}
+
+/* End of About Us */
